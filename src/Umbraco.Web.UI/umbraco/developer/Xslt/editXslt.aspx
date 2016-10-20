@@ -52,7 +52,7 @@
         PathNameAlias="UmbracoClient" />
 </asp:Content>
 <asp:Content ContentPlaceHolderID="body" runat="server" ID="cp1">
-    <cc1:TabView ID="UmbracoPanel1" runat="server" Text="Edit xsl" hasMenu="true">
+    <cc1:TabView ID="UmbracoPanel1" runat="server" Text="Edit XSLT" hasMenu="true">
             <cc1:Pane runat="server" ID="pane1">
                 <cc1:CodeArea ID="editorSource" CodeBase="XML" runat="server" AutoResize="false"  />
             </cc1:Pane>
