@@ -28,7 +28,7 @@
 				</li>
 				<li ng-show="model.value.type == 'content'">
 					<i class="icon icon-search"></i>
-					<a href ng-click="showSearch = true">Query for root node with xpath</a>
+					<a href ng-click="showSearch = true">Query for root node with XPath</a>
 				</li>
 			</ul>
 		</span>
@@ -38,22 +38,22 @@
 			<input type="text" 
 				ng-model="model.value.query" 
 				class="umb-editor umb-textstring" 
-				placeholder="Enter xpath query">
+				placeholder="Enter XPath query">
 
 				<ul class="unstyled list-icons" style="margin-top: 15px">	
 					<li style="max-width: 600px">	
 						<i class="icon icon-help-alt"></i>
 						<a href ng-click="showHelp = 1" prevent-default>
-							Show xpath query help
+							Show XPath query help
 						</a>
 
 						<small ng-if="showHelp">
 							<p>
-								Use Xpath query to set a root node on the tree, either based on a search from the root of the content tree, or by using a context-aware placeholder.
+								Use XPath query to set a root node on the tree, either based on a search from the root of the content tree, or by using a context-aware placeholder.
 							</p>
 
 							<p>
-								Placeholders finds the nearest published ID and runs its query from there. so for instance: 
+								Placeholders finds the nearest published ID and runs its query from there. So for instance: 
 
 								<pre>$parent/newsArticle</pre>
 
@@ -65,7 +65,7 @@
 								<code>$current</code>: current page or closest found ancestor<br/>
 								<code>$parent</code>: parent page or closest found ancestor<br/>
 								<code>$root</code>: root of the content tree<br/>
-								<code>$site</code>: Ancestor node at level 1 <br/>
+								<code>$site</code>: ancestor node at level 1 <br/>
 							</p>
 						</small>
 					</li>
