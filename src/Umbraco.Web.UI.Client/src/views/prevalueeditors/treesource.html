@@ -27,7 +27,7 @@
             </button>
             <div class="mt2" ng-show="model.value.type == 'content'">
                 <i class="icon icon-search" aria-hidden="true"></i>
-                <button type="button" class="btn-link" ng-click="showSearch = true">Query for root node with xpath</button>
+                <button type="button" class="btn-link" ng-click="showSearch = true">Query for root node with XPath</button>
             </div>
         </div>
 
@@ -36,16 +36,16 @@
             <input type="text"
                    ng-model="model.value.query"
                    class="umb-property-editor umb-textstring"
-                   placeholder="Enter xpath query">
+                   placeholder="Enter XPath query">
 
             <ul class="unstyled list-icons mt3">
                 <li style="max-width: 600px">
                     <i class="icon icon-help-alt" aria-hidden="true"></i>
-                    <button type="button" class="btn-link" ng-click="showHelp = 1">Show xpath query help</button>
+                    <button type="button" class="btn-link" ng-click="showHelp = 1">Show XPath query help</button>
 
                     <div class="small" ng-if="showHelp">
                         <p>
-                            Use Xpath query to set a root node on the tree, either based on a search from the root of the content tree, or by using a context-aware placeholder.
+                            Use an XPath query to set a root node on the tree, either based on a search from the root of the content tree, or by using a context-aware placeholder.
                         </p>
 
                         <p>
